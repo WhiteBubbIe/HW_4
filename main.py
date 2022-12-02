@@ -1,5 +1,5 @@
 def myFunk(name_func, *args):
-    name = name_func.__name__.title().replace('_', " ")
+    name = name_func.__name__.title().replace('_', ' ') + ":"
     print(name, *args)
 
 
