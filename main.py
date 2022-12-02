@@ -15,6 +15,6 @@ def find_registration_button_on_login_page(page_url, button_text):
     myFunk(find_registration_button_on_login_page, page_url, button_text)
 
 
-open_browser("Chrome")
-go_to_companyname_homepage("https://stepik.org/")
-find_registration_button_on_login_page("https://stepik.org/", "login")
+open_browser(browser_name="Chrome")
+go_to_companyname_homepage(page_url="https://stepik.org/")
+find_registration_button_on_login_page(page_url="https://stepik.org/", button_text= "login")
